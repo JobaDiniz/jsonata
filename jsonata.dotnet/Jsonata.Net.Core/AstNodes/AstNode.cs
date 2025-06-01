@@ -1,0 +1,1 @@
+using System.Text.Json.Nodes; using Jsonata.Net.Core.Evaluation; /* For Sequence */ namespace Jsonata.Net.Core.AstNodes; public abstract class AstNode {     public abstract Sequence Evaluate(JsonNode? input, EvaluationContext context); }

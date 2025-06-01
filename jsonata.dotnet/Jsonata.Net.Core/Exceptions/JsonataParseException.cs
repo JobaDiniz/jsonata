@@ -1,0 +1,1 @@
+using System; namespace Jsonata.Net.Core.Exceptions; public class JsonataParseException : Exception {     public JsonataParseException(string message) : base(message) {}     public JsonataParseException(string message, Exception innerException) : base(message, innerException) {} }
